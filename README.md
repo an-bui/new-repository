@@ -29,10 +29,10 @@ For 193DS assignments, you should put a link to the rendered .html file here so 
 
 This is where any information regarding data/code reuse and access would go. This is mostly relevant if you're working with your own data or data that your collaborators have collected.
 
-# Methodological information
+## Methodological information
 
 This is where any information about the methods used to collect, clean, or wrangle the data could go. If you do any cleaning/wrangling outside of the code (for example, directly in the .csv file), then you should describe what you did in this section.
 
-# Data-specific information
+## Data-specific information
 
 This is where the metadata would go if you don't have a metadata file or sheet in your repository.
