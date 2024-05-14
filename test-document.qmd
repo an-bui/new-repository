@@ -13,3 +13,19 @@ library(tidyverse)
 library(lterdatasampler)
 ```
 
+Here's some more code:
+
+```{r crab-plot}
+# "reading in" the data
+data(pie_crab)
+
+# making a plot
+crab_plot <- ggplot(data = pie_crab, # data
+                    aes(x = latitude, # x-axis
+                        y = size)) + # y-axis
+  geom_point() # making a scatter plot
+
+# displaying the output
+crab_plot
+```
+
