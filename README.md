@@ -36,3 +36,7 @@ This is where any information about the methods used to collect, clean, or wrang
 ## Data-specific information
 
 This is where the metadata would go if you don't have a metadata file or sheet in your repository.
+
+# More information
+
+For more information on how to write an informative README, see the UCSB Library Research Data Service's [guide](https://perma.cc/A5PN-YF7Z).
