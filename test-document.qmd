@@ -25,9 +25,34 @@ data(pie_crab)
 crab_plot <- ggplot(data = pie_crab, # data
                     aes(x = latitude, # x-axis
                         y = size)) + # y-axis
-  geom_point() # making a scatter plot
+  geom_point(color="red") # making a scatter plot, Caitlin changed the color of the points
 
 # displaying the output
 crab_plot
 ```
+
+Here are Caitlin's additions:
+
+```{r crab-plot2}
+
+library(paletteer) # for pretty colors
+
+# "reading in" the data
+data(pie_crab)
+
+# making a plot
+crab_plot2 <- pie_crab %>% 
+  filter(site == "CC" | site == "CT" | site == "DB" | site == "GTM" |site == "JC") %>% # subset 5 sites
+  ggplot(aes(x = site, # x-axis
+                        y = size,
+                        fill = site)) + # y-axis
+  geom_boxplot() + # making a scatter plot
+  scale_fill_manual(values = paletteer_d("LaCroixColoR::Lemon")) + # color it like a lemon LaCriox
+  labs(x = "Site",
+       y = "Crab size")
+
+# displaying the output
+crab_plot2
+```
+
 
