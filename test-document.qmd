@@ -42,10 +42,10 @@ data(pie_crab)
 
 # making a plot
 crab_plot2 <- pie_crab %>% 
-  filter(site == "CC" | site == "CT" | site == "DB" | site == "GTM" |site == "JC") %>% # subset 5 sites
+  filter(site %in% c("CC", "CT", "DB", "GTM", "JC")) %>% # subset 5 sites
   ggplot(aes(x = site, # x-axis
-                        y = size,
-                        fill = site)) + # y-axis
+             y = size,
+             fill = site)) + # y-axis
   geom_boxplot() + # making a scatter plot
   scale_fill_manual(values = paletteer_d("LaCroixColoR::Lemon")) + # color it like a lemon LaCriox
   labs(x = "Site",
