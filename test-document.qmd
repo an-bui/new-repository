@@ -1,0 +1,15 @@
+---
+title: "test document"
+author: "An Bui"
+format: html
+---
+
+This is a test document!  
+
+Here's some code:
+
+```{r packages}
+library(tidyverse)
+library(lterdatasampler)
+```
+
