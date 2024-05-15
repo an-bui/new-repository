@@ -32,7 +32,7 @@ Note that you can also get a tree diagram of all the files in the repo by runnin
 
 ## Rendered output (specifically for this class)
 
-For 193DS assignments, you should put a link to the rendered .html file here so that it is easy to access. For example, the rendered .html for this repo is [here](https://an-bui.github.io/new-repository/test-document.html).
+The rendered .html for this repo is [here](https://an-bui.github.io/new-repository/test-document.html).
 
 **Note: you should have at least a "General information" section, a "Data and file overview" section, and a "Rendered output" section in your README for full credit.**
 
@@ -40,15 +40,28 @@ For 193DS assignments, you should put a link to the rendered .html file here so 
 
 ## Sharing and accessing information
 
-This is where any information regarding data/code reuse and access would go. This is mostly relevant if you're working with your own data or data that your collaborators have collected.
+This repository is under a Open Data Commons Public Domain Dedication and License (PDDL). Feel free to reuse and modify as you see fit!  
+
+**Note:** you decide what license your work should be under. Licenses are community standards/norms, meaning that everyone respects them even though they do not have legal binding (yet). See this resource from Cornell Data Services about the [different types of licenses](https://data.research.cornell.edu/data-management/sharing/intellectual-property/#data-licensing).
 
 ## Methodological information
 
-This is where any information about the methods used to collect, clean, or wrangle the data could go. If you do any cleaning/wrangling outside of the code (for example, directly in the .csv file), then you should describe what you did in this section.
+Data used in this repository come from the `lterdatasampler` package. Specifically, we use the `pie_crab` dataset of fiddler crab size from Plum Island Ecosystem LTER.   
+
+Citation: Horst A, Brun J (2023). lterdatasampler: Educational Dataset Examples from the Long Term Ecological Research Program. R package version 0.1.1, https://github.com/lter/lterdatasampler.
 
 ## Data-specific information
 
-This is where the metadata would go if you don't have a metadata file or sheet in your repository.
+| Columns | Variable type | Content | Units |
+|:-------:|:-------------:|:--------|:-----:|
+| `date`  | Date          | date of collection | none |
+| `latitude` | numeric    | latitude of collection site | degrees |
+| `site`     | character  | code of collection site | none |
+| `size`     | numeric    | fidder crab size | millimeters |
+| `air_temp` | numeric    | mean temperature | °C |
+| `air_temp_sd` | numeric | temperature standard deviation | °C |
+| `water_temp` | numeric | mean water temperature | °C |
+| `water_temp_sd` | numeric | water temperature standard deviation | °C |
 
 # More information
 
