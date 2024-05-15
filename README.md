@@ -52,16 +52,20 @@ Citation: Horst A, Brun J (2023). lterdatasampler: Educational Dataset Examples 
 
 ## Data-specific information
 
-| Columns | Variable type | Content | Units |
-|:-------:|:-------------:|:--------|:-----:|
-| `date`  | Date          | date of collection | none |
-| `latitude` | numeric    | latitude of collection site | degrees |
-| `site`     | character  | code of collection site | none |
-| `size`     | numeric    | fidder crab size | millimeters |
-| `air_temp` | numeric    | mean temperature | °C |
-| `air_temp_sd` | numeric | temperature standard deviation | °C |
-| `water_temp` | numeric | mean water temperature | °C |
-| `water_temp_sd` | numeric | water temperature standard deviation | °C |
+| Columns         | Variable type | Content                              | Units       |
+|:----------------|:--------------|:-------------------------------------|:------------|
+| `date`          | Date          | date of collection                   | none        |
+| `latitude`      | numeric       | collection site latitude             | degrees     |
+| `site`          | character     | collection site code                 | none        |
+| `size`          | numeric       | fiddler crab size                    | millimeters |
+| `air_temp`      | numeric       | mean temperature                     | °C          |
+| `air_temp_sd`   | numeric       | temperature standard deviation       | °C          |
+| `water_temp`    | numeric       | mean water temperature               | °C          |
+| `water_temp_sd` | numeric       | water temperature standard deviation | °C          |
+
+**Note 1:** you can get the "variable type" information by running `str()` with your data frame in the console.  
+
+**Note 2:** See [this guide](https://quarto.org/docs/authoring/tables.html) for how to make tables in markdown (i.e. outside of code).
 
 # More information
 
