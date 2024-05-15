@@ -12,10 +12,23 @@ This is where a general description of the repo would go. This could include (bu
 
 ## Data and file overview
 
-This is where a description of the data and files could go. For example, you could describe:  
+- `test-document.qmd`: code to read in data and make plots  
+- `test-document.html`: rendered version of `test-document.qmd`  
+- `test-document_files`: accessory files for `test-document.html`  
 
-- the data file format, when you accessed the data, etc.  
-- the different code files and what they contain  
+Note that you can also get a tree diagram of all the files in the repo by running `tree` in the Terminal. You do have to install something new - see [directions here](https://superuser.com/questions/359723/mac-os-x-equivalent-of-the-ubuntu-tree-command).
+
+```
+.
+├── README.md                   # broad overview
+├── new-repository.Rproj        # project file
+├── test-document.html          # rendered output
+├── test-document.qmd           # raw code
+└── test-document_files         # rendered files
+    ├── figure-html             # figure output in .html file
+    │   └── crab-plot-1.png     # stand alone .png file
+    └── libs                    # accessory files to .html file
+```
 
 ## Rendered output (specifically for this class)
 
