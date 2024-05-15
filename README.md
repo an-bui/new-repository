@@ -1,14 +1,11 @@
-# new-repository
-
-# Essential components
 
 ## General information
 
-This is where a general description of the repo would go. This could include (but is not limited to):  
+**Description**: This is an example repo for the Git/Github and README resources for ENVS 193DS, Spring 2024.  
 
-- names of people working in the repo  
-- where the data came from  
-- broad research questions and analyses to address those questions  
+**Collaborators**: An Bui, Caitlin Nordheim-Maestas  
+
+**Research focus**: We visualized fiddler crab size as a function of latitude and site.
 
 ## Data and file overview
 
